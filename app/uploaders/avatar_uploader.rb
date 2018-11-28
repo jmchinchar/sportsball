@@ -1,8 +1,5 @@
 class AvatarUploader < CarrierWave::Uploader::Base
 
-  mount_uploader :avatar,
-  AvatarUploader belongs_to :team, 
-  has_many :users
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
