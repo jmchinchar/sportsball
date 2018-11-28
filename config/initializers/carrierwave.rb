@@ -10,5 +10,4 @@ Carrierwave.configure do |config|
 
   config.fog_directory =  "#{ENV['S3_BUCKET_NAME']}"
   config.cache_dir     = "#{Rails.root}/tmp/uploads"
-	}
 end
